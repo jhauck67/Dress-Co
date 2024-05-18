@@ -1,0 +1,46 @@
+//* FIRST BUTTON
+#first-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 16px;
+  background: $primary;
+  border-radius: 8px;
+  a {
+    color: $white;
+    &:hover {
+      color: $black;
+    }
+  }
+  &:hover {
+    background: $secondary;
+  }
+}
+//
+//
+//* SECOND BUTTON
+#second-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 16px;
+  background: $backgroundgrey;
+  border-radius: 8px;
+  a {
+    color: $black;
+    &:hover {
+      color: $black;
+    }
+  }
+  &:hover {
+    background: $secondary;
+  }
+}
+//
+//
+// *----------
+// *RESPONSIVE
+// *----------
+@media screen and (max-width: 600px) {
+  #first-button {
+    margin-bottom: 16px;
+  }
+}

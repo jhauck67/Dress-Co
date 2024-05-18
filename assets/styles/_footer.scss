@@ -1,0 +1,66 @@
+// *FOOTER
+footer {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+  background: $backgroundblack;
+  padding: 16px;
+  .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    #logo {
+      display: inline-block;
+      color: $white;
+      font-family: $logo;
+      font-size: 1.3rem;
+    }
+    p {
+      color: $white;
+      font-size: 0.7rem;
+    }
+    .networks i {
+      padding: 0 8px;
+      color: $white;
+      font-size: 1rem;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .footer-middle {
+    width: 60%;
+    margin: 32px auto;
+    height: 1px;
+    background: $backgroundwhite;
+  }
+  .footer-bottom a {
+    display: block;
+    text-align: center;
+    color: $white;
+    font-size: 0.7rem;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+//
+//
+// *----------
+// *RESPONSIVE
+// *----------
+@media screen and (max-width: 600px) {
+  footer {
+    width: 100%;
+    .footer-top {
+      display: block;
+      text-align: center;
+      #logo {
+        padding-bottom: 16px;
+      }
+      p {
+        padding-bottom: 16px;
+      }
+    }
+  }
+}
