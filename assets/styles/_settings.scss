@@ -1,21 +1,21 @@
 //* FONTS
 // Logo
 @font-face {
-  font-family: "Akronim-Regular";
-  src: url(./assets/fonts/Akronim-Regular.ttf);
+  font-family: "KaushanScript-Regular";
+  src: url(./assets/fonts/KaushanScript-Regular.ttf);
 }
-$logo: Akronim-Regular, sans-serif;
+$logo: KaushanScript-Regular, sans-serif;
 // Police sans-serif
 @font-face {
-  font-family: "Poppins-Bold";
-  src: url(./assets/fonts/Poppins-Bold.ttf);
+  font-family: "Montserrat-Regular";
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
-$bodybold: Poppins-Bold, sans-serif;
+$bodybold: Montserrat-Regular, sans-serif;
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url(./assets/fonts/Poppins-Regular.ttf);
+  font-family: "Montserrat-Regular";
+  src: url(./assets/fonts/Montserrat-Regular.ttf);
 }
-$body: Poppins-Regular, sans-serif;
+$body: Montserrat-Regular, sans-serif;
 // Police serif
 @font-face {
   font-family: "Merriweather-Bold";
@@ -31,31 +31,31 @@ $blog: Merriweather-Regular, serif;
 //
 // * COLORS
 // Background
-$backgroundblack: #1e1c1b;
-$backgroundgrey: #d9d9d9;
-$backgroundwhite: #fff6f2;
+$backgroundblack: #001a0f;
+$backgroundgrey: #7f8f88;
+$backgroundwhite: #f2fffa;
 //Writing
-$black: #001219;
-$white: #f2fbff;
+$black: #19000b;
+$white: #fff2f8;
 //Branding
-$primary: #048abf;
-$secondary: #6cbfe0;
+$primary: #e02472;
+$secondary: #f084b1;
 //Supporting
-$redtext: #6e0101;
-$redicon: #bf0404;
-$redbutton: #e06c6c;
+$redtext: #7d0a0a;
+$redicon: #e02424;
+$redbutton: #f08484;
 $redbackground: #fff2f2;
-$orangetext: #6e3701;
-$orangeicon: #bf6104;
-$orangebutton: #e0a66c;
+$orangetext: #7d430a;
+$orangeicon: #e08224;
+$orangebutton: #f0ba84;
 $orangebackground: #fff9f2;
-$greentext: #016e01;
-$greenicon: #04bf04;
-$greenbutton: #6ce06c;
+$greentext: #0a7d0a;
+$greenicon: #24e024;
+$greenbutton: #84f084;
 $greenbackground: #f2fff2;
-$bluetext: #01016e;
-$blueicon: #0404bf;
-$bluebutton: #6c6ce0;
+$bluetext: #0a0a7d;
+$blueicon: #2424e0;
+$bluebutton: #8484f0;
 $bluebackground: #f2f2ff;
 //
 //
@@ -83,33 +83,42 @@ body {
 #logo {
   font-family: $logo;
   font-size: 1.6rem;
+  color: $white;
 }
 h1 {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 2.2rem;
 }
 h2 {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 1.9rem;
 }
 h3 {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 1.6rem;
 }
 h4 {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 1.3rem;
 }
 a {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 1.1rem;
+  color: $white;
   &:hover {
     color: $primary;
   }
 }
 i {
   font-family: $bodybold;
+  font-weight: bold;
   font-size: 1.3rem;
+  color: $white;
   &:hover {
     color: $primary;
   }
