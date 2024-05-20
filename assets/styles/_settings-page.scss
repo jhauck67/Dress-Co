@@ -2,29 +2,29 @@
 // Logo
 @font-face {
   font-family: "KaushanScript-Regular";
-  src: url(./assets/fonts/KaushanScript-Regular.ttf);
+  src: url(../fonts/KaushanScript-Regular.ttf);
 }
 $logo: KaushanScript-Regular, sans-serif;
 // Police sans-serif
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 $bodybold: Montserrat-Regular, sans-serif;
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 $body: Montserrat-Regular, sans-serif;
 // Police serif
 @font-face {
   font-family: "Merriweather-Bold";
-  src: url(./assets/fonts/Merriweather-Bold.ttf);
+  src: url(../fonts/Merriweather-Bold.ttf);
 }
 $blogbold: Merriweather-Bold, serif;
 @font-face {
   font-family: "Merriweather-Regular";
-  src: url(./assets/fonts/Merriweather-Regular.ttf);
+  src: url(../fonts/Merriweather-Regular.ttf);
 }
 $blog: Merriweather-Regular, serif;
 //

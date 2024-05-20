@@ -3,13 +3,21 @@
   max-width: 1200px;
   width: 95%;
   margin: 0 auto 96px;
+  position: relative;
   img {
     width: 80%;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
   }
+  a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 65%;
+  }
 }
+
 //
 //
 // *----------

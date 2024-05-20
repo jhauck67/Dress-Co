@@ -1,0 +1,28 @@
+@import "../styles/settings-page";
+@import "../styles/navbar";
+@import "../styles/footer";
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .logo-container {
+    margin: 96px auto;
+    display: flex;
+    img {
+      padding-right: 12px;
+    }
+    #logo {
+      color: $black;
+      font-size: 4rem;
+    }
+  }
+}

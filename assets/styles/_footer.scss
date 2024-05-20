@@ -9,11 +9,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    #logo {
-      display: inline-block;
-      color: $white;
-      font-family: $logo;
-      font-size: 1.3rem;
+    .logo-container {
+      display: flex;
+      align-items: center;
+      img {
+        height: 48px;
+      }
     }
     p {
       color: $white;
@@ -55,7 +56,9 @@ footer {
     .footer-top {
       display: block;
       text-align: center;
-      #logo {
+      .logo-container {
+        justify-content: center;
+        margin: 0 auto;
         padding-bottom: 16px;
       }
       p {
