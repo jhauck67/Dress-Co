@@ -2,6 +2,17 @@
 @import "../styles/navbar";
 @import "../styles/footer";
 
+nav {
+  .menu {
+    &:hover a:not(:hover) {
+      color: $white;
+    }
+    a:nth-of-type(2) {
+      color: $primary;
+    }
+  }
+}
+
 footer {
   position: absolute;
   bottom: 0;
