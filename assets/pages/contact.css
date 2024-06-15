@@ -262,6 +262,75 @@ nav #icons {
     color: #fff2f8;
   }
 }
+#first-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 16px;
+  background: #e02472;
+  border-radius: 8px;
+}
+#first-button a {
+  color: #fff2f8;
+}
+#first-button a:hover {
+  color: #19000b;
+}
+#first-button:hover {
+  background: #f084b1;
+}
+
+#second-button {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 16px;
+  background: #7f8f88;
+  border-radius: 8px;
+}
+#second-button a {
+  color: #19000b;
+}
+#second-button a:hover {
+  color: #19000b;
+}
+#second-button:hover {
+  background: #f084b1;
+}
+
+@media screen and (max-width: 600px) {
+  #first-button {
+    margin-bottom: 16px;
+  }
+}
+.banner {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto 96px;
+  position: relative;
+}
+.banner img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.banner a {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 65%;
+}
+
+@media screen and (max-width: 775px) {
+  .banner {
+    margin: 0 auto 48px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+  }
+}
 footer {
   max-width: 1200px;
   width: 95%;
@@ -345,16 +414,12 @@ nav .menu a:nth-of-type(4) {
   color: #e02472;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+.banner {
+  margin: 48px auto;
 }
 
 .content {
-  height: 50%;
+  margin-top: -48px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -369,8 +434,15 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.content a {
+  margin: 24px auto;
+  color: #e02472;
+}
+.content a:hover {
+  color: #f084b1;
+}
 .content .logo-container {
-  margin: 96px auto;
+  margin: 48px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,4 +453,7 @@ footer {
 .content .logo-container #logo {
   color: #19000b;
   font-size: 4rem;
+}
+.content .button-container a {
+  color: #fff2f8;
 }/*# sourceMappingURL=contact.css.map */

@@ -1,5 +1,7 @@
 @import "../styles/settings-page";
 @import "../styles/navbar";
+@import "../styles/buttons";
+@import "../styles/banner";
 @import "../styles/footer";
 
 nav {
@@ -12,21 +14,24 @@ nav {
     }
   }
 }
-
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.banner {
+  margin: 48px auto;
 }
 .content {
-  height: 50%;
+  margin-top: -48px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  a {
+    margin: 24px auto;
+    color: $primary;
+    &:hover {
+      color: $secondary;
+    }
+  }
   .logo-container {
-    margin: 96px auto;
+    margin: 48px auto;
     display: flex;
     img {
       padding-right: 12px;
@@ -34,6 +39,11 @@ footer {
     #logo {
       color: $black;
       font-size: 4rem;
+    }
+  }
+  .button-container {
+    a {
+      color: $white;
     }
   }
 }

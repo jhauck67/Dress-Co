@@ -10,8 +10,8 @@
     />
     <!-- --- INFOS DE L'ONGLET --- -->
     <title>
-      A Propos | Dépôt-Vente de Vêtements de Marque, Accessoires, Créateurs &
-      Minéraux à Barr dans le Bas-Rhin (67)
+      Nos articles créateurs | Dépôt-Vente de Vêtements de Marque, Accessoires,
+      Créateurs & Minéraux à Barr dans le Bas-Rhin (67)
     </title>
     <link
       rel="shortcut icon"
@@ -26,7 +26,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <!-- --- STYLE CSS --- -->
-    <link rel="stylesheet" href="./apropos.css" />
+    <link rel="stylesheet" href="./gallery-createur.css" />
+    <link rel="stylesheet" href="./lightbox.css" />
   </head>
   <!---->
   <body>
@@ -59,15 +60,87 @@
     </nav>
     <!---->
     <!-- ***TITRE*** -->
-    <div class="content">
-      <h2>Le site de</h2>
-      <div class="logo-container">
-        <img src="../images/vector.png" />
-        <div id="logo">Dress & Co</div>
-      </div>
-      <h2>est en cours de construction</h2>
-    </div>
+    <h1>Nos articles créateurs</h1>
     <!---->
+    <!-- ***CONTAINER*** -->
+    <div class="container">
+      <div class="gallery">
+        <a
+          href="../images/createur1.jpg"
+          data-lightbox="models"
+          data-title="Caption1"
+        >
+          <img src="../images/createur1.jpg" />
+        </a>
+        <a
+          href="../images/createur2.jpg"
+          data-lightbox="models"
+          data-title="Caption2"
+        >
+          <img src="../images/createur2.jpg" />
+        </a>
+        <a
+          href="../images/createur3.jpg"
+          data-lightbox="models"
+          data-title="Caption3"
+        >
+          <img src="../images/createur3.jpg" />
+        </a>
+        <a
+          href="../images/createur4.jpg"
+          data-lightbox="models"
+          data-title="Caption4"
+        >
+          <img src="../images/createur4.jpg" />
+        </a>
+        <a
+          href="../images/createur5.jpg"
+          data-lightbox="models"
+          data-title="Caption5"
+        >
+          <img src="../images/createur5.jpg" />
+        </a>
+        <a
+          href="../images/createur6.jpg"
+          data-lightbox="models"
+          data-title="Caption6"
+        >
+          <img src="../images/createur6.jpg" />
+        </a>
+        <a
+          href="../images/createur7.jpg"
+          data-lightbox="models"
+          data-title="Caption7"
+        >
+          <img src="../images/createur7.jpg" />
+        </a>
+        <a
+          href="../images/createur8.jpg"
+          data-lightbox="models"
+          data-title="Caption8"
+        >
+          <img src="../images/createur8.jpg" />
+        </a>
+        <a
+          href="../images/createur9.jpg"
+          data-lightbox="models"
+          data-title="Caption9"
+        >
+          <img src="../images/createur9.jpg" />
+        </a>
+        <a
+          href="../images/createur10.jpg"
+          data-lightbox="models"
+          data-title="Caption10"
+        >
+          <img src="../images/createur10.jpg" />
+        </a>
+      </div>
+    </div>
+    <!-- ***BUTTON*** -->
+    <div class="button">
+      <a href="./gallery.html" id="first-button">Retour</a>
+    </div>
     <!-- ***FOOTER*** -->
     <footer>
       <div class="footer-top">
@@ -95,5 +168,6 @@
     </footer>
     <!---->
     <script src="../../index.js"></script>
+    <script src="./lightbox-plus-jquery.js"></script>
   </body>
 </html>

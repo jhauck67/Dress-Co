@@ -10,8 +10,8 @@
     />
     <!-- --- INFOS DE L'ONGLET --- -->
     <title>
-      A Propos | Dépôt-Vente de Vêtements de Marque, Accessoires, Créateurs &
-      Minéraux à Barr dans le Bas-Rhin (67)
+      Nos chaussures | Dépôt-Vente de Vêtements de Marque, Accessoires,
+      Créateurs & Minéraux à Barr dans le Bas-Rhin (67)
     </title>
     <link
       rel="shortcut icon"
@@ -26,7 +26,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <!-- --- STYLE CSS --- -->
-    <link rel="stylesheet" href="./apropos.css" />
+    <link rel="stylesheet" href="./gallery-chaussures.css" />
+    <link rel="stylesheet" href="./lightbox.css" />
   </head>
   <!---->
   <body>
@@ -59,15 +60,87 @@
     </nav>
     <!---->
     <!-- ***TITRE*** -->
-    <div class="content">
-      <h2>Le site de</h2>
-      <div class="logo-container">
-        <img src="../images/vector.png" />
-        <div id="logo">Dress & Co</div>
-      </div>
-      <h2>est en cours de construction</h2>
-    </div>
+    <h1>Nos chaussures</h1>
     <!---->
+    <!-- ***CONTAINER*** -->
+    <div class="container">
+      <div class="gallery">
+        <a
+          href="../images/chaussures1.jpg"
+          data-lightbox="models"
+          data-title="Caption1"
+        >
+          <img src="../images/chaussures1.jpg" />
+        </a>
+        <a
+          href="../images/chaussures2.jpg"
+          data-lightbox="models"
+          data-title="Caption2"
+        >
+          <img src="../images/chaussures2.jpg" />
+        </a>
+        <a
+          href="../images/chaussures3.jpg"
+          data-lightbox="models"
+          data-title="Caption3"
+        >
+          <img src="../images/chaussures3.jpg" />
+        </a>
+        <a
+          href="../images/chaussures4.jpg"
+          data-lightbox="models"
+          data-title="Caption4"
+        >
+          <img src="../images/chaussures4.jpg" />
+        </a>
+        <a
+          href="../images/chaussures5.jpg"
+          data-lightbox="models"
+          data-title="Caption5"
+        >
+          <img src="../images/chaussures5.jpg" />
+        </a>
+        <a
+          href="../images/chaussures6.jpg"
+          data-lightbox="models"
+          data-title="Caption6"
+        >
+          <img src="../images/chaussures6.jpg" />
+        </a>
+        <a
+          href="../images/chaussures7.jpg"
+          data-lightbox="models"
+          data-title="Caption7"
+        >
+          <img src="../images/chaussures7.jpg" />
+        </a>
+        <a
+          href="../images/chaussures8.jpg"
+          data-lightbox="models"
+          data-title="Caption8"
+        >
+          <img src="../images/chaussures8.jpg" />
+        </a>
+        <a
+          href="../images/chaussures9.jpg"
+          data-lightbox="models"
+          data-title="Caption9"
+        >
+          <img src="../images/chaussures9.jpg" />
+        </a>
+        <a
+          href="../images/chaussures10.jpg"
+          data-lightbox="models"
+          data-title="Caption10"
+        >
+          <img src="../images/chaussures10.jpg" />
+        </a>
+      </div>
+    </div>
+    <!-- ***BUTTON*** -->
+    <div class="button">
+      <a href="./gallery.html" id="first-button">Retour</a>
+    </div>
     <!-- ***FOOTER*** -->
     <footer>
       <div class="footer-top">
@@ -95,5 +168,6 @@
     </footer>
     <!---->
     <script src="../../index.js"></script>
+    <script src="./lightbox-plus-jquery.js"></script>
   </body>
 </html>
